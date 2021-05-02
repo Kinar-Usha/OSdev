@@ -30,7 +30,7 @@ Alternatively, you should be able to load the operating system on a USB drive an
 Remove the build-evironment image:
  - `docker rmi myos-buildenv -f`
  
-Mistakes I made
+## Mistakes I made
  - I am using a Windows 10 Home so Docker for desktop(hyper-v) doesnt work so use the docker for desktop with instegrated with wsl
  VS code has a remote -wsl feature.
  
