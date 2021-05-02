@@ -31,7 +31,7 @@ Remove the build-evironment image:
  - `docker rmi myos-buildenv -f`
  
 ## Mistakes I made
- - I am using a Windows 10 Home so Docker for desktop(hyper-v) doesnt work so use the docker for desktop with instegrated with wsl
+ - I am using a Windows 10 Home so Docker for desktop(hyper-v) doesnt work so use the docker for desktop- integrated with wsl
  VS code has a remote -wsl feature.
  
  - While in the build env, I ran `make build-x86_64`, I got `No rule to make target 'build-x86_64`,
