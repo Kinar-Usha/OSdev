@@ -37,7 +37,8 @@ Remove the build-evironment image:
  - While in the build env, I ran `make build-x86_64`, I got `No rule to make target 'build-x86_64`,
  my wsl wouldnt recognise the files in the directory (if you `ls` no files would be shown).
  solution-
-    export pwd=/path/of/repo/root
-    sudo docker run --rm -it -v "$(pwd)":/root/env myos-buildenv
-    then agian run your docker image
+    `export pwd=/path/of/repo/root`
+    `sudo docker run --rm -it -v "$(pwd)":/root/env myos-buildenv`
+
+    then again run your docker image
     
