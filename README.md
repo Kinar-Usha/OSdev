@@ -33,7 +33,7 @@ Mistakes I made
  - I am using a Windows 10 Home so Docker for desktop(hyper-v) doesnt work so use the docker for desktop with instegrated with wsl
  VS code has a remote -wsl feature.
  
- - While in the build env, if ran `make build-x86_64`, `No rule to make target 'build-x86_64`,
+ - While in the build env, I ran `make build-x86_64`, I got `No rule to make target 'build-x86_64`,
  my wsl wouldnt recognise the files in the directory (if you `ls` no files would be shown).
  solution-
     export pwd=/path/of/repo/root
