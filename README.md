@@ -1,7 +1,7 @@
 # My first try writing a 64-bit Operating System Kernel
 1. this just a multiboot loader
 2. It just prints out ok
-
+3. I'm gonna be building on this base
 ## Prerequisites
  - [VS Code](https://code.visualstudio.com/).
  - [Docker](https://www.docker.com/) for creating our build-environment.
@@ -41,4 +41,4 @@ Remove the build-evironment image:
     `sudo docker run --rm -it -v "$(pwd)":/root/env myos-buildenv`
 
     then again run your docker image
-    
+   
