@@ -1,4 +1,4 @@
-# My first try writng a 64-bit Operating System Kernel
+# My first try writing a 64-bit Operating System Kernel
 
 ## Prerequisites
  - [VS Code](https://code.visualstudio.com/).
