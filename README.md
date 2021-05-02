@@ -1,4 +1,5 @@
 # My first try writing a 64-bit Operating System Kernel
+1 . this just a multiboot loader
 
 ## Prerequisites
  - [VS Code](https://code.visualstudio.com/).
