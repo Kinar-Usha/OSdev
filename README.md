@@ -1,7 +1,6 @@
 # My first try writing a 64-bit Operating System Kernel
 1. this just a multiboot loader
-2. It just prints out ok
-3. I'm gonna be building on this base
+2. It just prints
 ## Prerequisites
  - [VS Code](https://code.visualstudio.com/).
  - [Docker](https://www.docker.com/) for creating our build-environment.
